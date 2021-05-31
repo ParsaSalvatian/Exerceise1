@@ -13,4 +13,12 @@ public class AppTest {
 
     }
 
+    @Test
+    public void testLength2(){
+        App pw2 = new App();
+        assertFalse(pw2.checkPassword("(Pass1"));
+    }
+
+
+
 }
